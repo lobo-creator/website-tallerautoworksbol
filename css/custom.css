@@ -1,0 +1,391 @@
+.red {
+  background-color: #cf2d37;
+  color: #cf2d37;
+}
+.clear {
+  clear: both;
+}
+
+.hex3 {
+  text-align: center;background: #cf2d37;
+  -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  width: 43px;
+  height: 40px;
+margin-top: -9px;margin-right: 5px;padding-top: 2px;font-size: 25px;display: inline-block;vertical-align: top;}
+
+.lineas {
+  position: absolute;
+  margin-left: -35px;
+  margin-top: 2px;
+}
+
+#topheader {
+  height: 100px;
+  background: radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+  /* width: 100%; */
+}
+
+#logohandle {
+  background: #4c4c4c;
+  width: calc(50% - 550px);
+  height: 60px;
+  position: absolute;
+  left: 0;
+filter: drop-shadow(-63px 0 16px #111);z-index: 101;}
+
+#social {
+  float: right;
+}
+
+.sociallink {
+  float: left;
+  font-weight: 600;
+  margin-right: 30px;
+  margin-top: 27px;
+  color: white;
+}
+
+.sociallink a {
+  color: #ffffff;
+}
+
+.navbar-nav li {
+  margin-right: 35px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #ab1821;
+}
+
+#banner a {
+  color:#ffffff;
+}
+
+.web-cam {
+  
+  position: relative;
+  
+  width: 100%;
+  height: 100%;
+  max-width: 600px;border-radius: 300px;
+  margin: 0 auto;
+  
+  
+  
+  
+  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  
+  
+  
+  
+}
+
+.play,
+.pause {
+  position: absolute;
+  display: block;
+  color: #fff;
+  font-size: 5em;
+  line-height: 5em;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  transition: 0.3s all ease-in-out;
+  z-index: 5;
+  cursor: pointer;
+  opacity: 0.2;
+}
+
+.web-cam:hover .play,
+.web-cam:hover .pause {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.web-cam:hover .pause {
+  opacity: 0.1;
+}
+
+.pause {
+  opacity: 0;
+}
+
+.pause:hover {
+  opacity: 0.8!important;
+}
+
+.play:hover,
+.pause:hover {
+  font-size: 6em;
+}
+
+
+.testimonial {
+  background-color: #353535;
+  background-size: inherit;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23989898' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  border-top: 10px solid #cf2d37;
+  border-bottom: 11px solid #cf2d37;
+  
+}
+.testimonial .container {
+  background-color: #ffffff;
+  
+  filter: drop-shadow(0 0 15px #333);
+
+padding-bottom: 30px;}
+
+
+/*hide video controls*/
+video::-webkit-media-controls-panel {
+  display: none !important;
+  opacity: 1 !important;}
+
+#intro {
+    text-align: left;
+    padding-left: 90px;
+    margin-bottom: 100px;
+}
+
+#intro #holder {
+  margin-left: 20%;
+}
+
+#intro #decoration {
+  width: 85px;
+  height: 120%;
+  border-left: 13px solid rgb(104, 104, 104);
+  border-bottom: 13px solid rgb(104, 104, 104);
+  border-top: 13px solid rgb(104, 104, 104);
+  position: absolute;
+  top: -8%;
+  left: 20%;
+}
+
+#intro h1 {
+  
+}
+
+.whatsapp-icon {
+  padding: 0 25px;
+  font-size: 70px;
+  vertical-align: sub;
+  font-weight: 600;
+}
+
+.location {
+  font-family: 'FontAwesome';
+  margin-left: -35px;
+  position: absolute;
+  color: #cf2d37;
+  font-size: 30px;
+}
+
+
+.circle {
+
+  height: 100%;
+  width: 100%;
+  
+  position: absolute;
+  /* z-index: 100; */
+  background: radial-gradient(ellipse at center, rgba(255, 113, 12, 0) 66%, #cf2d37 50.5%);
+  pointer-events: none;
+}
+
+
+#loading {
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: fixed;
+  z-index: 10000;
+top: 0;}
+
+/***********/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.noSelect {
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+
+.mybutton {
+  border: none;
+  font-family: 'Montserrat';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#cccccc), color-stop(20%, #6b6b6b), color-stop(50%, black), color-stop(70%, black), to(#6b6b6b));
+  background-image: linear-gradient(to bottom right, #cccccc 0%, #6b6b6b 20%, black 50%, black 70%, #6b6b6b 100%);
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  display: -ms-grid;
+  display: grid;
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 50px);
+  /* transform: translateY(-50%); */
+}
+
+.mybutton .mybuttoninner {
+  width: 85px;
+  height: 85px;
+  border-radius: 100px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9e9e9e), color-stop(40%, white), color-stop(70%, #383838), to(white));
+  background-image: linear-gradient(to bottom, #9e9e9e 0%, white 40%, #383838 70%, white 100%);
+  margin: 2px auto 6px auto;
+  padding: 2px;
+}
+
+.mybutton .mybuttoninner .mybuttoninner2 {
+  width: 85px;
+  height: 85px;
+  background-color: #6b6b6b;
+  border-radius: 100px;
+  -webkit-box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.7);
+          box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.7);
+  display: -ms-grid;
+  display: grid;
+}
+
+.mybutton .mybuttoninner .mybuttoninner2 ul {
+  padding: 0;
+}
+
+.mybutton .mybuttoninner .mybuttoninner2 ul li {
+  color: #aaaaaa;
+  list-style-type: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 7px;
+}
+
+.mybutton .mybuttoninner .mybuttoninner2 ul .mybuttoninnerline2 {
+  width: 70px;
+  height: 1px;
+  margin: auto;
+  background-color: black;
+  z-index: -1;
+}
+
+.mybutton .mybuttoninner .mybuttoninner2 ul .mybuttoninnerline {
+  width: 70px;
+  height: 1px;
+  margin: auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.galeria {
+  text-align: center;
+}
+.galeria img {
+  display: inline-block !important;
+}
+.modal-footer {
+  text-align: center;
+}
+
+
+
+@-webkit-keyframes animshadow {
+  50% {
+    -webkit-box-shadow: 0 0px 20px white;
+            box-shadow: 0 0px 20px white;
+    background-color: white;
+  }
+  100% {
+    -webkit-box-shadow: 0 0px 4px #e00000;
+            box-shadow: 0 0px 4px #e00000;
+    background-color: #e00000;
+  }
+}
+
+@keyframes animshadow {
+  50% {
+    -webkit-box-shadow: 0 0px 20px white;
+            box-shadow: 0 0px 20px white;
+    background-color: white;
+  }
+  100% {
+    -webkit-box-shadow: 0 0px 4px #e00000;
+            box-shadow: 0 0px 4px #e00000;
+    background-color: #e00000;
+  }
+}
+
+@-webkit-keyframes pressedbutton {
+  100% {
+    -webkit-transform: scale(1.47);
+            transform: scale(1.47);
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+@keyframes pressedbutton {
+  100% {
+    -webkit-transform: scale(1.47);
+            transform: scale(1.47);
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.mybutton:hover .mybuttoninnerline {
+  -webkit-box-shadow: 0 0px 4px #e00000;
+          box-shadow: 0 0px 4px #e00000;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #e00000;
+}
+
+.mybutton:focus {
+  border: none;
+  outline: none;
+  -webkit-animation: pressedbutton 0.2s alternate;
+          animation: pressedbutton 0.2s alternate;
+}
+
+.mybutton:focus .mybuttoninner {
+  border: none;
+}
+
+.mybutton:focus .mybuttoninner2 {
+  border: none;
+}
+
+.mybutton:focus .mybuttoninnerline2 {
+  border: none;
+}
+
+.mybutton:focus .mybuttoninnerline {
+  -webkit-animation: animshadow 0.4s forwards;
+          animation: animshadow 0.4s forwards;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
+
+
